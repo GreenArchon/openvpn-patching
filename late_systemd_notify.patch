@@ -1,5 +1,5 @@
---- src/openvpn/init.c	2020-06-08 19:14:06.482307427 -0400
-+++ src/openvpn/init.c	2020-06-08 19:15:07.279933507 -0400
+--- a/src/openvpn/init.c	2020-06-08 19:14:06.482307427 -0400
++++ b/src/openvpn/init.c	2020-06-08 19:15:07.279933507 -0400
 @@ -681,7 +681,7 @@
       * do any fork due to daemon() a future call.
       * See possibly_become_daemon() [init.c] for more details.
