@@ -5,6 +5,7 @@ set -o nounset
 set -o errexit
 set -o errtrace
 
+sudo apt-get install -y devscripts
 sudo apt-get build-dep openvpn
 apt-get source openvpn
 cd openvpn-*
